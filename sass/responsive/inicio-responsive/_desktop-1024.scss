@@ -1,0 +1,16 @@
+@media (max-width:1024px){
+    main{
+        .uriel-st{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            margin-bottom: 80px;
+            .texts-uriel-st{
+                grid-column: 1/11;
+                grid-row: 1/2;
+                h1{
+                    font-size: map-get($font-size , xxl );
+                }
+            }
+        }
+    }
+}

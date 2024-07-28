@@ -1,0 +1,37 @@
+header{
+    .navbar{
+        z-index: 2;
+        position: relative;
+    }
+}
+main{
+    .cuestionario{
+        margin-top: 50px;
+        position: relative;
+        z-index: 1;
+        .cuestionario-titulos{
+
+        }
+    }
+    .background-nova-6{
+        z-index: -1;
+        img{
+            width: 52%;
+            height: auto;
+            position: absolute;
+            top:350px;
+            left: 0px;
+        }
+    }
+    .lines-cuestionario{
+        z-index: -1;
+        img{
+            position: absolute;
+            width: 50%;
+            top: 0px;
+            height: auto;
+            right: 0px;
+            opacity: 0.2;
+        }
+    }
+}

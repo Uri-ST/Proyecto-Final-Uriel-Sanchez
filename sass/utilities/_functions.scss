@@ -1,0 +1,25 @@
+
+.section-1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 1px solid black;
+}
+/**imagenimos que tnemos dos secciones, pero lo unico que cambia
+es el text-align **/
+.section-2{
+    @extend .section-1;
+    text-align: right;
+}
+
+.seciton-3{
+    @extend .section-2;
+    color: red;
+}
+
+/** los extends funcionan siempre y cuando estén dentro 
+del mimso mediaquerie
+Funcionan en base a la cascada, no puedo hacer un 
+extend antes de la primera declaración
+**/

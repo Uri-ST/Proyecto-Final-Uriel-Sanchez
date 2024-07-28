@@ -1,0 +1,59 @@
+/* GLOBALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-color: white;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-weight: bolder;
+}
+
+h2 {
+    color: white;
+    font-weight: medium;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    color: #A2DEFF;
+    font-weight: normal;
+}
+
+p {
+    color: white;
+    font-weight: lighter;
+}
+
+button  {
+    background-color: #320085;
+    color: white;
+    border-color: transparent;
+    border-radius: 28px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+}
+
+body {
+    background-image: linear-gradient(to right, #15072d, #160831, #180935, #1a0a3a, #1c0a3e, #1f0b44, #220b4a, #250c50, #280e5a, #2c0f64, #2f116e, #321378);
+}

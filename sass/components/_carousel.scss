@@ -1,0 +1,97 @@
+header{
+    .navbar{
+        position: relative;
+    }
+}
+main{
+    .titulo-carrusel{
+        @include flex;
+        padding: 4px 0px;
+        h1{
+            text-align: center;
+            font-size: map-get($font-size , l );
+            background-color: rgba(60, 0, 97, 0.6);
+            border-radius: 24px;
+            box-shadow: 10px 10px 35px #100325;
+            border: 1px #B390ED solid;
+            padding: 10px 32px;
+        }
+    }
+    .background-small-circle-top{
+        img{
+            position: absolute;
+            z-index: -1;
+            top: 0px;
+            right: 0px;
+            width: 50%;
+            height: auto;
+            opacity: 0.7;
+        }
+    }
+    .container{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .d-flex{
+                        img{
+                            border-radius: 20px;
+                            margin-right: 50px;
+                            margin-bottom: 40px;
+                            box-shadow: 15px 15px 35px #100325;
+                        }
+                        .carousel-textos{
+                            .carousel-lista-textos{
+                                margin-top: 22px;
+                                margin-bottom: 32px;
+                            }
+                            .carousel-textos-herramientas{
+                                padding-bottom: 14px;
+                                p:nth-child(2){
+                                    color:$color-nav-hover;
+                                    font-weight: bold;
+                                }
+                            }
+                            .button-trabajemos-juntos{
+                                background-color: map-get(map-get($botones , trabajemos-juntos),background-color);
+                                color: map-get(map-get($botones , trabajemos-juntos),color);
+                                border-color:  map-get(map-get($botones , trabajemos-juntos),border-color);
+                                border-radius:  map-get(map-get($botones , trabajemos-juntos),border-radius);
+                                width:  map-get(map-get($botones , trabajemos-juntos),width);
+                                height:  map-get(map-get($botones , trabajemos-juntos),height);
+                                font-weight: map-get(map-get($botones , trabajemos-juntos),font-weight);
+                                padding: map-get(map-get($botones , trabajemos-juntos),padding);
+                                margin: 4px 4px 4px 0px;
+                                &:hover{
+                                    background-color: $color-azul-secundario;
+                                    cursor: pointer;
+                                    color: $color-azul-oscuro;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .btns-carousel{
+                    .carousel-control-prev {
+                        margin: 200px 0px;
+                    }
+                    .carousel-control-next{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        margin: 200px 0px;
+                    }
+                }
+            }
+        }
+    }
+    .background-small-circle-btm{
+        img{
+            position:absolute;
+            z-index: -1;
+            width: 20%;
+            height: auto;
+            bottom: -64px;
+            right: 0px;
+        }
+    }
+}

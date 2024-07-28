@@ -1,0 +1,81 @@
+/** 
+maps son colecciones de valores
+tamaños de cais identeicos fuentes, tipografías, colores, etc
+**/
+
+$colores-textos:(
+    color-principal:"white",
+    color-secundario:"red",
+    color:"blue",
+);
+
+/** 
+Voy al parcial donde vaya a colocarlo y lo haría de la 
+siguiente manera:
+background-color: map-get($colores , color1); defino primero 
+el map y luego la key
+utilizar la key que necesite en cada caso
+**/
+
+$font-size:(
+    xs:14px,
+    s:16px,
+    m:1.4rem,
+    l:3.2rem,
+    xl:4rem,
+    xxl:204px,
+    xs-mobile:1.3rem,
+    s-mobile:1.5rem,
+    m-mobile:2rem,
+    l-mobile:3.5rem,
+);
+
+$botones:(
+    trabajemos-juntos: (
+        color:white,
+        background-color: #0571BF,
+        border-color: transparent,
+        border-radius: 28px,
+        width: 180px,
+        height: 10px,
+        font-weight: bold,
+        padding: 10px 20px,
+    ),
+    descargar-book: (
+        color:white,
+        background-color: #9941B8,
+        border-color: transparent,
+        border-radius: 28px,
+        width: 180px,
+        height: 10px,
+        font-weight: bold,
+        padding: 10px 20px,
+    ),
+    quieres-saber-mas: (
+        color:white,
+        background-color: #320085,
+        border: 1.5px solid white,
+        border-radius: 28px,
+        width: 180px,
+        height: 10px,
+        font-weight: bold,
+        padding: 10px 20px,
+    ),
+    ver-mas: (
+        color:white,
+        background-color: #0571BF,
+        border: transparent,
+        border-radius: 12px,
+        width: 160px,
+        font-weight: bold,
+    ),
+    boton-enviar: (
+        border: 1px solid,
+        border-radius: 30px,
+        border-color: #DCA3FF,
+        background-color: #4D0964,
+        color: white,
+        width: 160px,
+        height: auto,
+    )
+);

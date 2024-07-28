@@ -1,0 +1,39 @@
+@media(max-width:425px){
+    .footer{
+        .footer-menu{
+            ul{
+                gap: 20px;
+            }
+            p{
+                font-size: 0.9em;
+            }
+        }
+    }
+}
+@media(max-width:375px){
+    .footer{
+        .footer-menu{
+            ul{
+                gap:20px;
+                font-size: 0.8em;
+            }
+            p{
+                font-size: 0.9em;
+            }
+        }
+    }
+}
+
+@media(max-width:320px){
+    .footer{
+        .footer-menu{
+            ul{
+                gap:20px;
+                font-size: 0.6em;
+            }
+            p{
+                font-size: 0.8em;
+            }
+        }
+    }
+}

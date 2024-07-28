@@ -1,0 +1,21 @@
+/* variable es un espacio de memoria reservado, la cual va a alojar un tipo  de datos.
+(numero, boleano, string, function, object...)
+css => variable va a guardar algun tipo de valor, de una propiedad
+
+la variable se crea con $nombre:valor*/
+$color-nav:white;
+$color-nav-active:#DCA3FF;
+$color-nav-hover:#25D8FF;
+
+$color-azul-principal:#0571BF;
+$color-azul-secundario:#25D8FF;
+$color-azul-oscuro:#100325;
+$color-morado-principal:#9941B8;
+$color-morado-secundario: #3A13A7;
+$color-morado-terciario: #DCA3FF;
+$color-morado-oscuro:#4D0964;
+$color-morado-hover:#A6A4FF;
+$color-blanco:white;
+$background-black:rgba(0,0,0,0.5);
+$background-navbar-toggler:rgba(0,0,0,0.7);
+$border-navbar-toggler:2px solid rgba(216, 195, 250, 0.4);

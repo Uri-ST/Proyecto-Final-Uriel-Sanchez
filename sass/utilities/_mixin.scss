@@ -1,0 +1,62 @@
+/** 
+un mixin es un bloque de codigo css, suele hacer referencia 
+a un conjunto de propiedades
+
+Nosotros al mixing lo podemos trabajar de manera estática 
+o dinámica.
+
+Hay que tratarle de usarla en las cosas que mas usamos
+como grids, display, etc.
+**/
+
+/**en este ejemplo estmos declarando que dentro de nuesto
+mixin flex, existen todas la propiedades dentro de llaves
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+/**
+Para llamar un mixinf en el parcial y el nosting donde estemos,
+sera de la siguiente forma
+
+@include flex;
+
+/** podemos agregar parametros para dar dinamísmo.
+en este caso cambio lo anterior por las variables declaradas
+que ahora estoy declarando.
+
+@mixin flex($direction, $wrap, $justify, $align, $gap) {
+    display: flex;
+    flex-direction:$direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap:$gap;
+}
+**/
+
+/**
+Cuando nosotros aplicamos datos dentro de estas funciones
+son parametros que se están declarando de acuerdo a la variable
+mencionada en la linea de arriba y se cambian de acuerdo
+a lo que necesites
+
+@include flex(flex,row,wrap,center, center, 3px);**/
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap:54px;
+}
+
+
+@mixin tablet{
+
+}

@@ -1,0 +1,130 @@
+@media (max-width:425px){
+    header{
+        .navbar-nav{
+            margin-left: 220px;
+            
+        }
+    }
+    main{
+        padding: 0px 10px;
+        .uriel-st{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 80px;
+            .background-nova-1{
+                img{
+                    top:20px;
+                    opacity: 60%;
+                    width: 90%;
+                }
+            }
+            .texts-uriel-st{
+                h1{
+                    font-size: 100px;
+                    text-align: center;
+                    padding-top: 0px;
+                    margin-bottom: 0px;
+                }
+                h2{
+                    font-size: 30px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .background-nova-2-up{
+            img{
+                top: 290px;
+                right: 0px;
+                width: 64%;
+                height: auto;
+                position: absolute;
+                z-index: -1;
+                transform: rotate(180deg);
+                opacity: 50%;
+
+            }
+        }
+        .proyectos-recientes{
+            .proyectos-recientes-textos{
+                h2{
+                    font-size: map-get($font-size , l-mobile );
+                }
+                h3{
+                    font-size: map-get($font-size , xs-mobile );
+                }
+            }
+        }
+        .lines-index-up{
+            img{
+                width: 30%;
+                top: 700px;
+            }
+        }
+        .sobre-mi-index{
+            .contenedor-sobre-mi-index{
+                padding-top: 0px;
+                padding-bottom: 50px;
+                .sobre-mi-titulo{
+                    font-size: map-get($font-size , l-mobile );
+                }
+                .sobre-mi-text{
+                    margin: 0px 20px;
+                    margin-bottom: 40px;
+                    font-size: map-get($font-size , s );
+                }
+            }
+        }
+
+        .proyectos-recientes{
+            margin: 0px 20px;
+            border-radius: 40px;
+        }
+        .cuestionario{
+            margin-bottom: 0px;
+            .cuestionario-titulos{
+                h2{
+                    font-size: map-get($font-size , l-mobile );
+                }
+                h3{
+                    
+                }
+            }
+            .cuestionario-contenedor{
+                width: 380px;
+                .cuestionario-contenedor-textos{
+                        h3{
+                            font-size: map-get($font-size , xs-mobile);
+                        }
+                        h4{
+                            font-size: map-get($font-size , s-mobile );
+                        }
+                }
+                .formulario{
+                    padding: 0px 20px;
+                    .button-enviar{
+                        margin-bottom: 15px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+        .background-lines-index{
+            img{
+                opacity: 80%;
+                top:3280px;
+                height: auto;
+                width: auto;
+            }
+        }
+        .redes-sociales{
+            a{
+                img{
+                    width: 90px;
+                    padding-bottom: 40px;
+                }
+            }
+        }
+    }
+}

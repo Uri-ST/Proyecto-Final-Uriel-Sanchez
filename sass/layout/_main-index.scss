@@ -1,0 +1,235 @@
+main{
+    padding: 0px 30px;
+    .uriel-st{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        margin-bottom: 80px;
+        .background-nova-1{
+            img{
+                top: -10px;
+                right: 10px;
+                width: 82%;
+                height: auto;
+                position: absolute;
+                z-index: -1;
+
+            }
+        }
+        .texts-uriel-st{
+            grid-column: 1/10;
+            grid-row: 1/2;
+            h1{
+                font-size: map-get($font-size , xxl );
+                padding-top: 40px;
+                position: relative;
+                z-index: 2;
+                text-shadow: 15px 15px 35px #100325;
+            }
+            h2{
+                font-size: map-get($font-size , l );
+                color:$color-azul-secundario;
+                font-weight:normal;
+                margin-bottom: 46px;
+            }
+        }
+        .buttons-uriel-st{
+            grid-column: 1/6;
+            grid-row: 2/3;
+            order:1;
+            z-index: 1;
+            .button-trabajemos-juntos{
+                background-color: map-get(map-get($botones , trabajemos-juntos),background-color);
+                color: map-get(map-get($botones , trabajemos-juntos),color);
+                border-color:  map-get(map-get($botones , trabajemos-juntos),border-color);
+                border-radius:  map-get(map-get($botones , trabajemos-juntos),border-radius);
+                width:  map-get(map-get($botones , trabajemos-juntos),width);
+                height:  map-get(map-get($botones , trabajemos-juntos),height);
+                font-weight: map-get(map-get($botones , trabajemos-juntos),font-weight);
+                padding: map-get(map-get($botones , trabajemos-juntos),padding);
+                margin: 4px 4px 4px 0px;
+                &:hover{
+                    background-color: $color-azul-secundario;
+                    cursor: pointer;
+                    color: $color-azul-oscuro;
+                }
+            }
+            .button-descargar-cv{
+                background-color: map-get(map-get($botones , descargar-book),background-color);
+                color: map-get(map-get($botones , descargar-book),color);
+                border-color:  map-get(map-get($botones , descargar-book),border-color);
+                border-radius:  map-get(map-get($botones , descargar-book),border-radius);
+                width:  map-get(map-get($botones , descargar-book),width);
+                height:  map-get(map-get($botones , descargar-book),height);
+                font-weight: map-get(map-get($botones , descargar-book),font-weight);
+                padding: map-get(map-get($botones , descargar-book), padding);
+                margin: 4px 4px 4px 0px;
+                &:hover{
+                    background-color: $color-morado-terciario;
+                    cursor: pointer;
+                    color: $color-morado-oscuro;
+                }
+            }
+        }
+    }
+    .sobre-mi-index{
+        padding: 0px 0px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        gap:10px;
+
+
+        .contenedor-sobre-mi-index{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 60px 0px;
+            .sobre-mi-titulo{
+                font-size: map-get($font-size , xl);
+                color: $color-blanco;
+                font-weight: bold;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+            .sobre-mi-text{
+                text-align: center;
+                font-weight: 200px;
+                background-color: rgba(60, 0, 97, 0.6);
+                border-radius: 24px;
+                border: 1px #B390ED solid;
+                margin: 0px 140px;
+                padding: 20px 20px;
+                margin-bottom: 40px;
+                font-size: 20px;
+                box-shadow: 10px 10px 35px #100325;
+            }
+            .quieres-saber-mas{
+                .button-quieres-saber-mas{
+                    background-color: map-get(map-get($botones , quieres-saber-mas),background-color);
+                    color: map-get(map-get($botones , quieres-saber-mas),color);
+                    border: map-get(map-get($botones , quieres-saber-mas),border);
+                    border-radius:  map-get(map-get($botones , quieres-saber-mas),border-radius);
+                    width:  map-get(map-get($botones , quieres-saber-mas),width);
+                    height:  map-get(map-get($botones , quieres-saber-mas),height);
+                    font-weight: map-get(map-get($botones , quieres-saber-mas),font-weight);
+                    padding: map-get(map-get($botones , quieres-saber-mas), padding);
+                    margin: 0px 4px 4px 0px;
+                    &:hover{
+                        background-color: $color-morado-hover;
+                        cursor: pointer;
+                        color: $color-morado-oscuro;
+                    }
+                }
+            }
+        }
+    }
+    .background-nova-2-up{
+        img{
+            top: 840px;
+            right: 10px;
+            width: 30%;
+            height: auto;
+            position: absolute;
+            z-index: -1;
+            transform: rotate(180deg);
+            right: 0px;
+        }
+    }
+    .lines-index-up{
+        img{
+            top: 470px;
+            left: 0px;
+            height: auto;
+            position: absolute;
+            z-index: -1; 
+            opacity: (0.5);
+        }
+    }
+    .background-nova-2{
+        img{
+            position: absolute;
+            width: 45% ;
+            height: auto;
+            left: -200px;
+            margin-top: 380px;
+            z-index:-1;
+        }
+    }
+    .proyectos-recientes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap:nowrap;
+        background-color: $background-black;
+        padding: 40px 10px;
+        border-radius: 90px;
+        z-index: 1;
+        backdrop-filter: blur(4px);
+        width: auto;
+        border: 2px solid rgba(216, 195, 250, 0.4);
+        margin-bottom: 94px;
+        .proyectos-recientes-textos{
+            text-align: center;
+            h2{
+                font-size: map-get($font-size , l );
+                font-weight: bold;
+            }
+            h3{
+                font-size: map-get($font-size , m );
+                padding-bottom: 30px;
+            }
+        }
+        
+        .proyectos-recientes-botones{
+            padding-top: 53px;
+            justify-content: center;
+            .conoce-mas-proyectos{
+                background-color: map-get(map-get($botones , quieres-saber-mas),background-color);
+                color: map-get(map-get($botones , quieres-saber-mas),color);
+                border: map-get(map-get($botones , quieres-saber-mas),border);
+                border-radius:  map-get(map-get($botones , quieres-saber-mas),border-radius);
+                width:  map-get(map-get($botones , quieres-saber-mas),width);
+                height:  map-get(map-get($botones , quieres-saber-mas),height);
+                font-weight: map-get(map-get($botones , quieres-saber-mas),font-weight);
+                padding: map-get(map-get($botones , quieres-saber-mas), padding);
+                margin: 0px 4px 4px 0px;
+                &:hover{
+                    background-color: $color-morado-hover;
+                    cursor: pointer;
+                    color: $color-morado-oscuro;
+                }
+            }
+        }
+    }
+    
+    .redes-sociales{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        z-index: 1;
+        position: relative;
+        margin: 0px 0px;
+        padding-bottom: 30px;
+        a{
+            img{
+                z-index: 1;
+                width: 100px;
+                transition: transform 0.6s ease-in-out;
+                &:hover{
+                    transform: scale(0.7);
+                }
+            }
+        }
+    }
+    .background-lines-index{
+        img{
+            opacity: 80%;
+            top:2100px;
+            height: auto;
+            width: auto;
+            position: absolute;
+            right: 0px;
+            z-index: -2;
+        }
+    }
+}

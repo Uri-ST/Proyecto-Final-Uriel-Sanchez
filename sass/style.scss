@@ -1,0 +1,35 @@
+@import "./utilities/functions";
+@import "./utilities/maps";
+@import "./utilities/mixin";
+@import "./utilities/variables";
+@import "./base/fonts";
+@import "./base/resets";
+@import "./components/animista";
+@import "./components/cards";
+@import "./components/formulario";
+@import "./components/carousel";
+@import "./layout/header.scss";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-sobre-mi";
+@import "./layout/demoreel";
+@import "./layout/main-modelados";
+@import "./layout/main-contacto";
+@import "./responsive/inicio-responsive/desktop-1024";
+@import "./responsive/footer-responsive";
+@import "./responsive/inicio-responsive/tablet-768";
+@import "./responsive/inicio-responsive/mobile-425";
+@import "./responsive/inicio-responsive/mobile-375";
+@import "./responsive/inicio-responsive/mobile-320";
+
+@import "./responsive/demoreel-responsive/tablet-768-demoreel";
+@import "./responsive/demoreel-responsive/mobile-425-demoreel";
+@import "./responsive/demoreel-responsive/mobile-375-demoreel";
+@import "./responsive/demoreel-responsive/mobile-320-demoreel";
+
+
+@import "./responsive/contacto-responsive/desktop-1024-contacto";
+@import "./responsive/contacto-responsive/tablet-768-contacto";
+@import "./responsive/contacto-responsive/mobile-425-contacto";
+@import "./responsive/contacto-responsive/mobile-375-contacto";
+@import "./responsive/contacto-responsive/mobile-320-contacto";

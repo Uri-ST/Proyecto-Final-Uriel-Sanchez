@@ -1,0 +1,45 @@
+.contenedor-cards{
+    @include flex;
+    flex-wrap: wrap;
+    .card{
+        border: 1px solid #BAC1FF;
+        border-radius: 30px;
+        img{
+            border-radius: 30px;
+        }
+        .card-body{
+            border-radius: 30px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: flex-end;
+            position:absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            transition: background-color 0.5s ease-in-out;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.0);
+                cursor: pointer;
+            }
+            h4{
+                text-align: center;
+                color: $color-blanco;
+                font-size: 2rem
+            }
+            a{
+                font-size: map-get($font-size , s );
+                background-color: map-get(map-get($botones , ver-mas),background-color);
+                color: map-get(map-get($botones , ver-mas),color);
+                border: map-get(map-get($botones , ver-mas),border);
+                border-radius:  map-get(map-get($botones , ver-mas),border-radius);
+                width:  map-get(map-get($botones , ver-mas),width);
+                font-weight: map-get(map-get($botones , ver-mas),font-weight);
+                &:hover{
+                    background-color: $color-azul-secundario;
+                    color: $color-azul-oscuro;
+                }
+            }
+        }
+    }
+}

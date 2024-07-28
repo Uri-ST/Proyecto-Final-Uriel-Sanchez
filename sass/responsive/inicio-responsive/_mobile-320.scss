@@ -1,0 +1,170 @@
+@media (max-width:320px){
+    header{
+        .navbar-nav{
+            margin-left: 110px;
+            
+        }
+    }
+    main{
+        padding: 0px 10px;
+        .uriel-st{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            margin-top: 10px;
+            .background-nova-1{
+                img{
+                    top:20px;
+                }
+            }
+            .texts-uriel-st{
+                h1{
+                    font-size: 80px;
+                    text-align: center;
+                    padding-top: 0px;
+                    margin-bottom: 0px;
+                }
+                h2{
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+            }
+            .buttons-uriel-st{
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                flex-wrap: nowrap;
+                gap: 10px;
+                .button-trabajemos-juntos{
+                    width: 180px;
+                    padding: 10px 10px;
+                    height:45px;
+                    text-align: center;
+                }
+                .button-descargar-cv{
+                    width: 180px;
+                    padding: 10px 10px;
+                    height:45px;
+                    text-align: center;
+                }
+            }
+        }
+        .sobre-mi-index{
+            .contenedor-sobre-mi-index{
+                .sobre-mi-titulo{
+                    font-size: 10px;
+                }
+                p{
+
+                }
+            }
+        }
+        .background-nova-2-up{
+            img{
+                top: 780px;
+                right: 0px;
+                width: 80%;
+                height: auto;
+                position: absolute;
+                z-index: -1;
+                transform: rotate(180deg);
+
+            }
+        }
+        .proyectos-recientes{
+            border-radius: 20px;
+            .contenedor-cards{
+                width: 13rem;
+                gap: 30px;
+                .card{
+                }
+            }
+            .proyectos-recientes-textos{
+                h2{
+                    font-size: 48px;
+                }
+                h3{
+                    font-size: 15px;
+                }
+            }
+        }
+        .lines-index-up{
+            img{
+                top: 280px;
+            }
+        }
+        .background-nova-2{
+            img{
+                width: 95% ;
+                left: -100px;
+                margin-top: 1500px;
+            }
+        }
+        .sobre-mi-index{
+            .contenedor-sobre-mi-index{
+                padding-top: 0px;
+                padding-bottom: 50px;
+                .sobre-mi-titulo{
+                    font-size: map-get($font-size , l-mobile );
+                }
+                .sobre-mi-text{
+                    margin: 0px 20px;
+                    margin-bottom: 40px;
+                    font-size: map-get($font-size , s );
+                }
+            }
+        }
+
+        .proyectos-recientes{
+            margin: 0px 20px;
+        }
+        .cuestionario{
+            .cuestionario-titulos{
+                h2{
+                    font-size: 48px;
+                }
+                h3{
+                    font-size: 22px;
+                }
+            }
+            .cuestionario-contenedor{
+                width: 290px;
+                .cuestionario-contenedor-textos{
+                        h3{
+                            font-size: 18px;
+                        }
+                }
+                .formulario{
+                    h4{
+                        font-size: 38px;
+                    }
+                    align-content: center;
+                    padding:0px 0px;
+                    flex-wrap: wrap;
+                    .button-enviar{
+                        margin-bottom:15px;
+                        margin-top: 5px;
+                    }
+                    input{
+                        margin: 0px 15px;
+                    }
+                    textarea{
+                        padding: 8px 4px;
+                        margin: 0px 10px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .background-lines-index{
+            img{
+                opacity: 80%;
+                top:3070px;
+                height: auto;
+                width: auto;
+            }
+        }
+    }
+}

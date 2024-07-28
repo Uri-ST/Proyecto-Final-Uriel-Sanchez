@@ -1,0 +1,117 @@
+.cuestionario{
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cuestionario-titulos{
+        text-align: center;
+        h2{
+            font-size: map-get($font-size , l );
+        }
+        h3{
+            font-size: map-get($font-size , m );
+            padding-bottom: 24px;
+
+        }
+    }
+    .cuestionario-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index:1; 
+        background-color: rgba(144, 162, 255, 0.6);
+        border:white;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 30px;
+        box-shadow: 30px 30px 50px #100325;
+        width: 790px;
+        backdrop-filter: blur(6px);
+        margin-bottom: 88px;
+        .cuestionario-contenedor-textos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: nowrap;
+            h3{
+                font-size: 1.8rem;
+                color: $color-azul-secundario;
+                text-align: center;
+                margin-bottom: 15px;
+                margin-top: 22px;
+            }
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 0px 90px 40px 90px;
+            gap: 10px;
+            h4{
+                text-align: center;
+                margin-bottom: 18px;
+                font-size: 2.8rem;
+                color: white;
+            }
+            input, textarea {
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.3);
+                padding: 15px 20px;
+                border-color: transparent;
+                outline: none;
+                box-shadow: 5px 5px 10px rgba(7, 7, 26, 0.15);
+            }
+            
+            input::placeholder, textarea::placeholder {
+                color: white;
+            }
+            
+            .name-form:focus {
+                border: 2px solid;
+                border-color:#E4DAFF;
+            }
+            .asunto:focus {
+                border: 2px solid;
+                border-color:#E4DAFF;
+            }
+            
+            .email:focus {
+                border: 2px solid;
+                border-color:#E4DAFF;
+            }
+            
+            .message:focus {
+                border: 2px solid;
+                border-color:#E4DAFF;
+            }
+            
+            .formulario, .name-form, .asunto, .email, .message {
+                color: white;
+            }
+            .button-enviar{
+                align-self: center;
+                text-align: center;
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: bold;
+                margin-top: 28px;
+                border: map-get(map-get($botones , boton-enviar),border);
+                border-radius: map-get(map-get($botones , boton-enviar),border-radius);
+                border-color: map-get(map-get($botones , boton-enviar),border-color);
+                background-color: map-get(map-get($botones , boton-enviar),background-color);
+                color: map-get(map-get($botones , boton-enviar),color);
+                box-shadow: none;
+                width: map-get(map-get($botones , boton-enviar),width);
+                height: map-get(map-get($botones , boton-enviar),height);
+                transition: transform 0.6s ease-in-out;
+                &:hover{
+                    background-color: $color-morado-terciario;
+                    color: $color-morado-oscuro;
+                    transform: scale(0.9);
+                }
+            }
+        }
+    }
+}

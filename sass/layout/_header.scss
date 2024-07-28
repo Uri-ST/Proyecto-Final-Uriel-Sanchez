@@ -1,0 +1,35 @@
+header {
+    .container-fluid {
+        .navbar-toggler{
+            width: 70px;
+            border: 0.1px solid white;
+        }
+        div{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color:$color-nav;
+                        &:hover{
+                            color: $color-nav-hover;
+                        }
+                    }
+                    .boton-active{
+                        text-decoration:underline #FE43B3;
+                        text-underline-offset: 8px;
+                        color: $color-nav-active;
+                    }
+                    .dropdown-menu{
+                        background-color: rgba(203, 204, 237, 0.3);
+                        .dropdown-item{
+                            color:$color-nav;
+                            &:hover{
+                                background-color:#A6A4FF;
+                                color:#4D0964
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
