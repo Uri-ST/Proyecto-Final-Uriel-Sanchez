@@ -26,6 +26,13 @@ footer{
                 text-underline-offset: 8px;
                 color: $color-nav-active;
             }
+            li{
+                a{
+                    &:hover{
+                        color: $color-nav-hover;
+                    }
+                }
+            }
         }
         p{
             margin-bottom: 0px;

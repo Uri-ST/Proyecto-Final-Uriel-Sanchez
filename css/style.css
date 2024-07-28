@@ -654,6 +654,8 @@ footer {
         text-decoration: underline #FE43B3;
         text-underline-offset: 8px;
         color: #DCA3FF; }
+      footer .footer-menu ul li a:hover {
+        color: #25D8FF; }
     footer .footer-menu p {
       margin-bottom: 0px; }
 
