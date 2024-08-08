@@ -667,9 +667,9 @@ main .background-sobre-mi {
   z-index: -1; }
   main .background-sobre-mi img {
     position: absolute;
-    width: 100%;
+    width: 70%;
     height: auto;
-    top: -40px;
+    top: 10px;
     right: 0px; }
 
 main .contenedor-sobre-mi {
@@ -680,7 +680,7 @@ main .contenedor-sobre-mi {
   align-items: center;
   gap: 54px;
   gap: 30px;
-  z-index: 0;
+  z-index: 1;
   position: relative;
   top: 60px; }
   main .contenedor-sobre-mi h1 {
@@ -715,7 +715,8 @@ main .contenedor-skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px; }
+  gap: 30px;
+  z-index: 2; }
   main .contenedor-skills .skills-textos {
     background-color: rgba(16, 0, 23, 0.6);
     box-shadow: 18px 18px 25px #100325;
@@ -799,6 +800,16 @@ main .redes-sociales-sobre-mi {
     main .redes-sociales-sobre-mi a img:hover {
       transform: scale(0.7); }
 
+main .gradiant-background-sobre-mi {
+  z-index: -2; }
+  main .gradiant-background-sobre-mi img {
+    position: absolute;
+    width: 26%;
+    height: auto;
+    left: 0px;
+    top: 540px;
+    opacity: 0.5; }
+
 header .nav-bar {
   z-index: 2;
   position: relative; }
@@ -879,7 +890,7 @@ main .lines-cuestionario {
     right: 0px;
     opacity: 0.2; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1032px) {
   main .uriel-st {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -888,7 +899,67 @@ main .lines-cuestionario {
       grid-column: 1/11;
       grid-row: 1/2; }
       main .uriel-st .texts-uriel-st h1 {
-        font-size: 204px; } }
+        font-size: 204px; }
+  main .proyectos-recientes {
+    padding: 40px 45px;
+    margin: 0px 30px; }
+  main .background-lines-index img {
+    top: 2700px; } }
+
+@media (max-width: 935px) {
+  header .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 2px solid rgba(216, 195, 250, 0.4);
+    margin-top: 4px;
+    margin-left: 650px;
+    backdrop-filter: blur(6px); }
+  main {
+    padding: 0px 10px; }
+    main .uriel-st {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 80px; }
+      main .uriel-st .texts-uriel-st h1 {
+        font-size: 180px;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 0px; }
+      main .uriel-st .texts-uriel-st h2 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 30px; }
+      main .uriel-st .buttons-uriel-st {
+        z-index: 1; }
+        main .uriel-st .buttons-uriel-st .button-trabajemos-juntos {
+          background-color: #0571BF;
+          color: white;
+          border-color: transparent;
+          border-radius: 28px;
+          width: 180px;
+          height: 10px;
+          font-weight: bold;
+          padding: 10px 20px;
+          margin: 4px 4px 4px 0px; }
+        main .uriel-st .buttons-uriel-st .button-descargar-cv {
+          background-color: #9941B8;
+          color: white;
+          border-color: transparent;
+          border-radius: 28px;
+          width: 180px;
+          height: 10px;
+          font-weight: bold;
+          padding: 10px 20px; }
+    main .sobre-mi-index .contenedor-sobre-mi-index .sobre-mi-text {
+      margin: 0px 35px;
+      margin-bottom: 40px; }
+    main .proyectos-recientes {
+      padding: 40px 40px;
+      margin: 0px 50px; }
+    main .background-lines-index img {
+      top: 2400px; } }
 
 @media (max-width: 425px) {
   .footer .footer-menu ul {
@@ -910,7 +981,7 @@ main .lines-cuestionario {
   .footer .footer-menu p {
     font-size: 0.8em; } }
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
   header .navbar-nav {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
@@ -981,6 +1052,37 @@ main .lines-cuestionario {
       margin-top: 840px;
       z-index: -1; } }
 
+@media (max-width: 714px) {
+  main .cuestionario .cuestionario-contenedor {
+    width: 570px; }
+  main .background-lines-index img {
+    top: 2500px; } }
+
+@media (max-width: 709px) {
+  main .proyectos-recientes {
+    margin: 0px 60px; }
+  main .background-lines-index img {
+    top: 3300px; } }
+
+@media (max-width: 625px) {
+  main .cuestionario .cuestionario-contenedor {
+    width: 490px; }
+  main .background-lines-index img {
+    top: 3700px; } }
+
+@media (max-width: 513px) {
+  main .cuestionario .cuestionario-contenedor {
+    width: 380px; }
+    main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h3 {
+      font-size: 1.3rem; }
+    main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h4 {
+      font-size: 1.5rem; }
+    main .cuestionario .cuestionario-contenedor .formulario {
+      padding: 0px 20px; }
+      main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
+        margin-bottom: 15px;
+        margin-top: 5px; } }
+
 @media (max-width: 425px) {
   header .navbar-nav {
     margin-left: 220px; }
@@ -1049,14 +1151,14 @@ main .lines-cuestionario {
             margin-top: 5px; }
     main .background-lines-index img {
       opacity: 80%;
-      top: 3280px;
+      top: 3320px;
       height: auto;
       width: auto; }
     main .redes-sociales a img {
       width: 90px;
       padding-bottom: 40px; } }
 
-@media (max-width: 375px) {
+@media (max-width: 385px) {
   header .navbar-nav {
     margin-left: 170px; }
   main {
@@ -1131,7 +1233,7 @@ main .lines-cuestionario {
     main .redes-sociales {
       padding-bottom: 0px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 365px) {
   header .navbar-nav {
     margin-left: 110px; }
   main {
@@ -1234,12 +1336,111 @@ main .lines-cuestionario {
       height: auto;
       width: auto; } }
 
+@media (max-width: 1340px) {
+  main .contenedor-sobre-mi h1 {
+    margin-right: 320px; }
+  main .contenedor-sobre-mi h2 {
+    margin-right: 320px; }
+  main .contenedor-sobre-mi .textos-sobre-mi {
+    background-color: rgba(100, 103, 178, 0.8);
+    backdrop-filter: blur(8px);
+    overflow: auto;
+    margin-right: 320px;
+    margin-left: 40px;
+    box-shadow: 10px 10px 35px #100325;
+    border-radius: 28px;
+    padding: 30px 40px; }
+    main .contenedor-sobre-mi .textos-sobre-mi p {
+      font-size: 16px;
+      text-align: justify; } }
+
+@media (max-width: 768px) {
+  main .background-sobre-mi {
+    z-index: -1; }
+    main .background-sobre-mi img {
+      position: absolute;
+      width: 90%;
+      height: auto;
+      top: 10px;
+      opacity: 0.7; }
+  main .contenedor-sobre-mi h1 {
+    font-size: 4rem;
+    margin-right: 0px;
+    text-align: center; }
+  main .contenedor-sobre-mi h2 {
+    font-size: 1.4rem;
+    color: #25D8FF;
+    text-align: center;
+    margin-right: 0px;
+    font-weight: 300;
+    padding-bottom: 10px; }
+  main .contenedor-sobre-mi .textos-sobre-mi {
+    margin-right: 30px;
+    margin-left: 30px; }
+  main .contenedor-estudios {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    text-align: center; }
+    main .contenedor-estudios h2 {
+      font-size: 3.2rem; }
+    main .contenedor-estudios h3 {
+      font-size: 16px;
+      font-weight: 200px; }
+  main .gradiant-background-sobre-mi {
+    z-index: -2; }
+    main .gradiant-background-sobre-mi img {
+      position: absolute;
+      width: 36%;
+      height: auto;
+      left: 0px;
+      top: 800px;
+      opacity: 0.5; } }
+
+@media (max-width: 925px) {
+  main .background-nova-5 img {
+    width: 50%;
+    top: 410px; }
+  main .lines-demoreel img {
+    left: 170px;
+    top: 290px;
+    width: 100%; } }
+
 @media (max-width: 768px) {
   main .background-nova-5 img {
     width: 50%;
     top: 410px; }
   main .lines-demoreel img {
     left: 170px; } }
+
+@media (max-width: 600px) {
+  main .video-reel {
+    gap: 20px;
+    padding-bottom: 60px;
+    height: auto; }
+    main .video-reel h1 {
+      font-size: 3rem;
+      font-weight: 500;
+      margin-bottom: 30px;
+      margin-top: 10px; }
+    main .video-reel iframe {
+      width: 100%;
+      height: 332px; }
+  main .background-nova-4 img {
+    width: 55%;
+    height: auto;
+    top: 10px;
+    right: 0px; }
+  main .background-nova-5 img {
+    width: 84%;
+    left: 0px;
+    top: 370px; }
+  main .lines-demoreel img {
+    left: 170px;
+    top: 130px;
+    width: 100%; } }
 
 @media (max-width: 425px) {
   main .video-reel {

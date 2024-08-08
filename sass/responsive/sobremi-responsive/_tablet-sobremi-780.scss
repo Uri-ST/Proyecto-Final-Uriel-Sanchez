@@ -1,0 +1,59 @@
+@media (max-width:768px){
+    main{
+        .background-sobre-mi{
+            z-index: -1;
+            img{
+                position: absolute;
+                width: 90%;
+                height: auto;
+                top:10px;
+                opacity: (0.7);
+            }
+        }
+        .contenedor-sobre-mi{
+            h1{
+                font-size:map-get($font-size , xl );
+                margin-right: 0px;
+                text-align: center;
+            }
+            h2{
+                font-size: map-get( $font-size , m );
+                color:$color-azul-secundario;
+                text-align: center;
+                margin-right: 0px;
+                font-weight: 300;
+                padding-bottom: 10px;
+            }
+            .textos-sobre-mi{
+                margin-right: 30px;;
+                margin-left: 30px;
+            }
+        }
+        .contenedor-estudios{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 20px;
+            text-align: center;
+            h2{
+                font-size: map-get($font-size , l );
+            }
+            h3{
+                font-size: map-get($font-size , s );
+                font-weight: 200px;
+            }
+        }
+        .gradiant-background-sobre-mi{
+            z-index: -2;
+            img{
+                position: absolute;
+                width: 36%;
+                height: auto;
+                left: 0px;
+                top:800px;
+                opacity: (0.5);
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-@media (max-width:768px){
+@media (max-width:935px){
     header{
         .navbar-nav{
             background-color:$background-navbar-toggler;
@@ -6,17 +6,11 @@
             padding-left: 20px;
             border: $border-navbar-toggler;
             margin-top: 4px;
-            margin-left: 550px;
+            margin-left: 650px;
             backdrop-filter: blur(6px);
-            .dropdown-menu{
-                .dropdown-item{
-                }
-                .dropdown-divider{
-                }
-            }
         }
     }
-    main{
+        main{
         padding: 0px 10px;
         .uriel-st{
             display: flex;
@@ -27,7 +21,7 @@
                 h1{
                     font-size: 180px;
                     text-align: center;
-                    padding-top: 0px;
+                    padding-top: 30px;
                     margin-bottom: 0px;
                 }
                 h2{
@@ -63,45 +57,19 @@
         }
         .sobre-mi-index{
             .contenedor-sobre-mi-index{
-                padding-top: 0px;
-                padding-bottom: 40px;
                 .sobre-mi-text{
-                    margin: 0px 20px;
+                    margin: 0px 35px;
                     margin-bottom: 40px;
                 }
             }
         }
         .proyectos-recientes{
-            margin: 0px 20px;
-            .contenedor-cards{
-                .card{
-                    .card-body{
-                        background-color:rgba(0, 0, 0, 0.0);
-                    }
-                }
-            }
-        }
-        .cuestionario{
-            .cuestionario-contenedor{
-                width: 700px;
-            }
+            padding: 40px 40px;
+            margin: 0px 50px;
         }
         .background-lines-index{
             img{
-                opacity: 80%;
-                top:2300px;
-                height: auto;
-                width: auto;
-            }
-        }
-        .background-nova-2{
-            img{
-                position: absolute;
-                width: 45% ;
-                height: auto;
-                left: -90px;
-                margin-top: 840px;
-                z-index:-1;
+                top:2400px;
             }
         }
     }

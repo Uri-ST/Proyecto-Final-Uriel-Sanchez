@@ -1,4 +1,4 @@
-@media (max-width:1024px){
+@media (max-width:1032px){
     main{
         .uriel-st{
             display: grid;
@@ -10,6 +10,15 @@
                 h1{
                     font-size: map-get($font-size , xxl );
                 }
+            }
+        }
+        .proyectos-recientes{
+            padding: 40px 45px;
+            margin: 0px 30px;
+        }
+        .background-lines-index{
+            img{
+                top:2700px;
             }
         }
     }

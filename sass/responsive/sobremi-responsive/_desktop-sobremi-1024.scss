@@ -1,0 +1,26 @@
+@media (max-width:1340px){
+    main{
+        .contenedor-sobre-mi{
+            h1{
+                margin-right: 320px;
+            }
+            h2{
+                margin-right: 320px;
+            }
+            .textos-sobre-mi{
+                background-color: rgba(100, 103, 178, 0.8);
+                backdrop-filter: blur(8px);
+                overflow: auto;
+                margin-right: 320px;;
+                margin-left: 40px;
+                box-shadow: 10px 10px 35px #100325;
+                border-radius: 28px;
+                padding:30px 40px;
+                p{
+                    font-size:map-get($font-size , s );
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
