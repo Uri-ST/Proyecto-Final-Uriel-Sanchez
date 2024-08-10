@@ -2,7 +2,7 @@
     main{
         .video-reel{
             gap: 20px;
-            padding-bottom: 60px;
+            padding-bottom: 30px;
             height: auto;
             h1{
                 font-size:3rem;
@@ -35,6 +35,14 @@
                 left: 50px;
                 top:170px;
                 width: 500px;
+            }
+        }
+        .redes-sociales{
+            padding-bottom: 18px;
+            a{
+                img{
+                    width: 68px;
+                }
             }
         }
     }

@@ -707,6 +707,8 @@ main .contenedor-sobre-mi {
     main .contenedor-sobre-mi .textos-sobre-mi p {
       font-size: 16px;
       text-align: justify; }
+  main .contenedor-sobre-mi .textos-sobre-mi-mobile {
+    display: none; }
 
 main .contenedor-skills {
   position: relative;
@@ -743,9 +745,10 @@ main .contenedor-skills {
 
 main .contenedor-estudios {
   position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  align-items: center;
   gap: 20px;
   text-align: center; }
   main .contenedor-estudios h2 {
@@ -754,16 +757,15 @@ main .contenedor-estudios {
     font-size: 1.4rem;
     font-weight: 200px; }
   main .contenedor-estudios .buttons-estudios {
-    padding-top: 10px;
-    position: relative;
-    z-index: 1; }
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 10px; }
     main .contenedor-estudios .buttons-estudios .button-trabajemos-juntos {
       background-color: #0571BF;
       color: white;
       border-color: transparent;
       border-radius: 28px;
-      width: 180px;
-      height: 10px;
       font-weight: bold;
       padding: 10px 20px; }
       main .contenedor-estudios .buttons-estudios .button-trabajemos-juntos:hover {
@@ -775,8 +777,6 @@ main .contenedor-estudios {
       color: white;
       border-color: transparent;
       border-radius: 28px;
-      width: 180px;
-      height: 10px;
       font-weight: bold;
       padding: 10px 20px; }
       main .contenedor-estudios .buttons-estudios .button-descargar-cv:hover {
@@ -1212,26 +1212,31 @@ main .lines-cuestionario {
         font-size: 16px; }
     main .proyectos-recientes {
       margin: 0px 20px; }
-    main .cuestionario .cuestionario-titulos h2 {
-      font-size: 3.5rem; }
-    main .cuestionario .cuestionario-contenedor {
-      width: 340px; }
-      main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h3 {
-        font-size: 1.3rem; }
-      main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h4 {
-        font-size: 1.5rem; }
-      main .cuestionario .cuestionario-contenedor .formulario {
-        padding: 0px 20px; }
-        main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
-          margin-bottom: 15px;
-          margin-top: 5px; }
+    main .cuestionario {
+      height: 950px; }
+      main .cuestionario .cuestionario-titulos h2 {
+        font-size: 3.5rem; }
+      main .cuestionario .cuestionario-contenedor {
+        width: 340px; }
+        main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h3 {
+          font-size: 1.3rem; }
+        main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h4 {
+          font-size: 1.5rem; }
+        main .cuestionario .cuestionario-contenedor .formulario {
+          padding: 0px 20px; }
+          main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
+            margin-bottom: 15px;
+            margin-top: 5px; }
+    main .redes-sociales {
+      padding-bottom: 0px; }
+      main .redes-sociales a img {
+        width: 10px;
+        padding-bottom: 10px; }
     main .background-lines-index img {
       opacity: 80%;
       top: 3050px;
       height: auto;
-      width: auto; }
-    main .redes-sociales {
-      padding-bottom: 0px; } }
+      width: auto; } }
 
 @media (max-width: 365px) {
   header .navbar-nav {
@@ -1307,29 +1312,31 @@ main .lines-cuestionario {
         font-size: 16px; }
     main .proyectos-recientes {
       margin: 0px 20px; }
-    main .cuestionario .cuestionario-titulos h2 {
-      font-size: 48px; }
-    main .cuestionario .cuestionario-titulos h3 {
-      font-size: 22px; }
-    main .cuestionario .cuestionario-contenedor {
-      width: 290px; }
-      main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h3 {
-        font-size: 18px; }
-      main .cuestionario .cuestionario-contenedor .formulario {
-        align-content: center;
-        padding: 0px 0px;
-        flex-wrap: wrap; }
-        main .cuestionario .cuestionario-contenedor .formulario h4 {
-          font-size: 38px; }
-        main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
-          margin-bottom: 15px;
-          margin-top: 5px; }
-        main .cuestionario .cuestionario-contenedor .formulario input {
-          margin: 0px 15px; }
-        main .cuestionario .cuestionario-contenedor .formulario textarea {
-          padding: 8px 4px;
-          margin: 0px 10px;
-          text-align: center; }
+    main .cuestionario {
+      height: 900px; }
+      main .cuestionario .cuestionario-titulos h2 {
+        font-size: 48px; }
+      main .cuestionario .cuestionario-titulos h3 {
+        font-size: 22px; }
+      main .cuestionario .cuestionario-contenedor {
+        width: 290px; }
+        main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h3 {
+          font-size: 18px; }
+        main .cuestionario .cuestionario-contenedor .formulario {
+          align-content: center;
+          padding: 0px 0px;
+          flex-wrap: wrap; }
+          main .cuestionario .cuestionario-contenedor .formulario h4 {
+            font-size: 38px; }
+          main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
+            margin-bottom: 15px;
+            margin-top: 5px; }
+          main .cuestionario .cuestionario-contenedor .formulario input {
+            margin: 0px 15px; }
+          main .cuestionario .cuestionario-contenedor .formulario textarea {
+            padding: 8px 4px;
+            margin: 0px 10px;
+            text-align: center; }
     main .background-lines-index img {
       opacity: 80%;
       top: 3070px;
@@ -1399,6 +1406,157 @@ main .lines-cuestionario {
       top: 800px;
       opacity: 0.5; } }
 
+@media (max-width: 480px) {
+  main .background-sobre-mi img {
+    width: 160%;
+    top: 10px; }
+  main .contenedor-sobre-mi {
+    top: 10px; }
+    main .contenedor-sobre-mi .textos-sobre-mi {
+      display: none; }
+    main .contenedor-sobre-mi .textos-sobre-mi-mobile {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(100, 103, 178, 0.8);
+      backdrop-filter: blur(23px);
+      overflow: auto;
+      margin: 0px 20px;
+      box-shadow: 10px 10px 35px #100325;
+      border-radius: 28px;
+      padding: 18px 20px; }
+      main .contenedor-sobre-mi .textos-sobre-mi-mobile p {
+        font-size: 16px;
+        text-align: center; }
+  main .contenedor-skills {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 90px;
+    margin-bottom: 70px; }
+    main .contenedor-skills .skills-textos {
+      gap: 38px; }
+  main .gradiant-background-sobre-mi img {
+    width: 56%;
+    top: 650px; }
+  main .redes-sociales-sobre-mi a img {
+    width: 80px;
+    padding-bottom: 10px; } }
+
+@media (max-width: 375px) {
+  main .background-sobre-mi img {
+    top: 30px;
+    opacity: 0.6; }
+  main .contenedor-sobre-mi {
+    top: 10px; }
+    main .contenedor-sobre-mi h1 {
+      font-size: 4rem;
+      margin-right: 0px;
+      text-align: center; }
+    main .contenedor-sobre-mi h2 {
+      font-size: 1.4rem;
+      color: #25D8FF;
+      text-align: center;
+      margin-right: 0px;
+      font-weight: 300;
+      padding-bottom: 10px; }
+    main .contenedor-sobre-mi .textos-sobre-mi {
+      margin-right: 30px;
+      margin-left: 30px;
+      display: none; }
+    main .contenedor-sobre-mi .textos-sobre-mi-mobile {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(100, 103, 178, 0.8);
+      backdrop-filter: blur(23px);
+      overflow: auto;
+      margin: 0px 20px;
+      box-shadow: 10px 10px 35px #100325;
+      border-radius: 28px;
+      padding: 18px 20px; }
+      main .contenedor-sobre-mi .textos-sobre-mi-mobile p {
+        font-size: 16px;
+        text-align: center; }
+  main .contenedor-skills {
+    margin-top: 90px;
+    margin-bottom: 70px; }
+    main .contenedor-skills .skills-textos {
+      gap: 26px; }
+  main .contenedor-estudios {
+    gap: 15px; }
+    main .contenedor-estudios h2 {
+      font-size: 3.2rem; }
+    main .contenedor-estudios h3 {
+      font-size: 16px;
+      font-weight: 200px;
+      padding: 0px 10px;
+      padding-bottom: 10px; }
+    main .contenedor-estudios .buttons-estudios {
+      padding-top: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px; }
+  main .gradiant-background-sobre-mi {
+    z-index: -2; }
+    main .gradiant-background-sobre-mi img {
+      position: absolute;
+      width: 56%;
+      height: auto;
+      left: 0px;
+      top: 650px;
+      opacity: 0.4; }
+  main .redes-sociales-sobre-mi {
+    padding-top: 44px; }
+    main .redes-sociales-sobre-mi a img {
+      width: 80px;
+      padding-bottom: 10px; } }
+
+@media (max-width: 330px) {
+  main .background-sobre-mi img {
+    top: 50px;
+    opacity: 0.6; }
+  main .contenedor-sobre-mi {
+    top: 10px; }
+    main .contenedor-sobre-mi h1 {
+      font-size: 58px; }
+    main .contenedor-sobre-mi .textos-sobre-mi-mobile p {
+      font-size: 1rem; }
+  main .contenedor-skills {
+    margin-top: 90px;
+    margin-bottom: 70px; }
+    main .contenedor-skills .skills-textos {
+      gap: 10px; }
+      main .contenedor-skills .skills-textos h1 {
+        font-size: 1rem; }
+      main .contenedor-skills .skills-textos .skills-list li {
+        font-size: 14px; }
+  main .contenedor-estudios {
+    gap: 15px; }
+    main .contenedor-estudios h2 {
+      font-size: 48px; }
+    main .contenedor-estudios h3 {
+      font-size: 14px;
+      font-weight: 200px;
+      padding: 0px 10px;
+      padding-bottom: 10px; }
+    main .contenedor-estudios .buttons-estudios {
+      padding-top: 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px; }
+  main .gradiant-background-sobre-mi {
+    z-index: -2; }
+    main .gradiant-background-sobre-mi img {
+      position: absolute;
+      width: 56%;
+      height: auto;
+      left: 0px;
+      top: 650px;
+      opacity: 0.4; }
+  main .redes-sociales-sobre-mi {
+    padding-top: 34px; }
+    main .redes-sociales-sobre-mi a img {
+      width: 68px;
+      padding-bottom: 10px; } }
+
 @media (max-width: 925px) {
   main .background-nova-5 img {
     width: 50%;
@@ -1467,12 +1625,15 @@ main .lines-cuestionario {
   main .lines-demoreel img {
     left: 170px;
     top: 140px;
-    width: 100%; } }
+    width: 100%; }
+  main .redes-sociales a img {
+    width: 90px;
+    padding-bottom: 10px; } }
 
 @media (max-width: 375px) {
   main .video-reel {
     gap: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     height: auto; }
     main .video-reel h1 {
       font-size: 3rem;
@@ -1494,12 +1655,17 @@ main .lines-cuestionario {
   main .lines-demoreel img {
     left: 170px;
     top: 90px;
-    width: 100%; } }
+    width: 100%; }
+  main .redes-sociales {
+    padding-bottom: 18px; }
+    main .redes-sociales a img {
+      width: 80px;
+      padding-bottom: 10px; } }
 
 @media (max-width: 320px) {
   main .video-reel {
     gap: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     height: auto; }
     main .video-reel h1 {
       font-size: 3rem;
@@ -1521,7 +1687,11 @@ main .lines-cuestionario {
   main .lines-demoreel img {
     left: 50px;
     top: 170px;
-    width: 500px; } }
+    width: 500px; }
+  main .redes-sociales {
+    padding-bottom: 18px; }
+    main .redes-sociales a img {
+      width: 68px; } }
 
 @media (max-width: 1024px) {
   main .background-nova-6 img {

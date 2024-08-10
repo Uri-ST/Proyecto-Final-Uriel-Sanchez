@@ -1,0 +1,91 @@
+@media (max-width:375px){
+    main{
+        .background-sobre-mi{
+            img{
+                top:30px;
+                opacity: (0.6);
+            }
+        }
+        .contenedor-sobre-mi{
+            top: 10px;
+            h1{
+                font-size:map-get($font-size , xl );
+                margin-right: 0px;
+                text-align: center;
+            }
+            h2{
+                font-size: map-get( $font-size , m );
+                color:$color-azul-secundario;
+                text-align: center;
+                margin-right: 0px;
+                font-weight: 300;
+                padding-bottom: 10px;
+            }
+            .textos-sobre-mi{
+                margin-right: 30px;;
+                margin-left: 30px;
+                display: none;
+            }
+            .textos-sobre-mi-mobile {
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(100, 103, 178, 0.8);
+                backdrop-filter: blur(23px);
+                overflow: auto;
+                margin:0px 20px;
+                box-shadow: 10px 10px 35px #100325;
+                border-radius: 28px;
+                padding:18px 20px;
+                p{
+                    font-size:map-get($font-size , s );
+                    text-align: center;
+                }
+            }
+        }
+        .contenedor-skills{
+            margin-top: 90px;
+            margin-bottom: 70px;
+            .skills-textos{
+                gap: 26px;
+            }
+        }
+        .contenedor-estudios{
+            gap: 15px;
+            h2{
+                font-size: map-get($font-size , l );
+            }
+            h3{
+                font-size: map-get($font-size , s );
+                font-weight: 200px;
+                padding: 0px 10px;
+                padding-bottom: 10px;
+            }
+            .buttons-estudios{
+                padding-top: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+            }
+        }
+        .gradiant-background-sobre-mi{
+            z-index: -2;
+            img{
+                position: absolute;
+                width: 56%;
+                height: auto;
+                left: 0px;
+                top:650px;
+                opacity: (0.4);
+            }
+        }
+        .redes-sociales-sobre-mi{
+            padding-top: 44px;
+            a{
+                img{
+                    width: 80px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}

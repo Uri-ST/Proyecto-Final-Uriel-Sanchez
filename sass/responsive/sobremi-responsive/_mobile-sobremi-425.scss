@@ -1,0 +1,54 @@
+@media (max-width:480px){
+    main{
+        .background-sobre-mi{
+            img{
+                width: 160%;
+                top:10px;
+            }
+        }
+        .contenedor-sobre-mi{
+            top: 10px;
+            .textos-sobre-mi{
+                display: none;
+            }
+            .textos-sobre-mi-mobile {
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(100, 103, 178, 0.8);
+                backdrop-filter: blur(23px);
+                overflow: auto;
+                margin:0px 20px;
+                box-shadow: 10px 10px 35px #100325;
+                border-radius: 28px;
+                padding:18px 20px;
+                p{
+                    font-size:map-get($font-size , s );
+                    text-align: center;
+                }
+            }
+        }
+        .contenedor-skills{
+            margin-right: 10px ;
+            margin-left: 10px;
+            margin-top: 90px;
+            margin-bottom: 70px;
+            .skills-textos{
+                gap: 38px;
+            }
+        }
+        .gradiant-background-sobre-mi{
+            img{
+                width: 56%;
+                top:650px;
+            }
+        }
+        .redes-sociales-sobre-mi{
+            a{
+                img{
+                    width: 80px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}

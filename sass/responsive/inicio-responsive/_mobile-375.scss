@@ -91,6 +91,7 @@
             margin: 0px 20px;
         }
         .cuestionario{
+            height: 950px;
             .cuestionario-titulos{
                 h2{
                     font-size: map-get($font-size , l-mobile );
@@ -118,6 +119,15 @@
                 }
             }
         }
+        .redes-sociales{
+            padding-bottom: 0px;
+            a{
+                img{
+                    width: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
         .background-lines-index{
             img{
                 opacity: 80%;
@@ -125,9 +135,6 @@
                 height: auto;
                 width: auto;
             }
-        }
-        .redes-sociales{
-            padding-bottom: 0px;
         }
     }
 }

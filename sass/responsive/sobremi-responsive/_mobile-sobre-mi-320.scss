@@ -1,0 +1,74 @@
+@media (max-width:330px){
+    main{
+        .background-sobre-mi{
+            img{
+                top:50px;
+                opacity: (0.6);
+            }
+        }
+        .contenedor-sobre-mi{
+            top: 10px;
+            h1{
+                font-size:58px;
+            }
+            .textos-sobre-mi-mobile {
+                p{
+                    font-size:1rem;
+                }
+            }
+        }
+        .contenedor-skills{
+            margin-top: 90px;
+            margin-bottom: 70px;
+            .skills-textos{
+                gap: 10px;
+                h1{
+                    font-size: 1rem;
+                }
+                .skills-list{
+                    li{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .contenedor-estudios{
+            gap: 15px;
+            h2{
+                font-size: 48px;
+            }
+            h3{
+                font-size: 14px;
+                font-weight: 200px;
+                padding: 0px 10px;
+                padding-bottom: 10px;
+            }
+            .buttons-estudios{
+                padding-top: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+        .gradiant-background-sobre-mi{
+            z-index: -2;
+            img{
+                position: absolute;
+                width: 56%;
+                height: auto;
+                left: 0px;
+                top:650px;
+                opacity: (0.4);
+            }
+        }
+        .redes-sociales-sobre-mi{
+            padding-top: 34px;
+            a{
+                img{
+                    width: 68px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}
