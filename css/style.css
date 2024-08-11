@@ -427,10 +427,32 @@ main .container .carousel .carousel-inner .btns-carousel .carousel-control-next 
 main .background-small-circle-btm img {
   position: absolute;
   z-index: -1;
-  width: 20%;
+  width: 25%;
   height: auto;
-  bottom: -64px;
+  bottom: -94px;
   right: 0px; }
+
+main .navbar-portafolios {
+  padding-bottom: 30px; }
+  main .navbar-portafolios ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    padding-left: 0px; }
+    main .navbar-portafolios ul .boton-portafolio-active {
+      border: #B390ED solid 1px;
+      padding: 10px 20px;
+      border-radius: 16px;
+      background-color: rgba(60, 0, 97, 0.6);
+      color: white;
+      font-weight: bold;
+      backdrop-filter: blur(0.6); }
+    main .navbar-portafolios ul li a {
+      color: #C6C6C6;
+      font-weight: 100; }
+      main .navbar-portafolios ul li a:hover {
+        color: #25D8FF; }
 
 header .container-fluid .navbar-toggler {
   width: 70px;
@@ -1653,7 +1675,14 @@ main .lines-cuestionario {
   main .background-small-circle-btm img {
     width: 26%;
     height: auto;
-    bottom: -164px; } }
+    bottom: -134px; } }
+
+@media (max-width: 550px) {
+  main .navbar-portafolios ul {
+    gap: 32px;
+    font-size: 16px; }
+    main .navbar-portafolios ul .boton-portafolio-active {
+      padding: 10px 10px; } }
 
 @media (max-width: 467px) {
   main .titulo-carrusel {
@@ -1690,8 +1719,20 @@ main .lines-cuestionario {
   main .background-small-circle-btm img {
     width: 76%;
     height: auto;
-    bottom: -204px;
-    opacity: 0.4; } }
+    bottom: -244px;
+    opacity: 0.4; }
+  main .navbar-portafolios ul {
+    gap: 20px;
+    font-size: 14px; }
+    main .navbar-portafolios ul .boton-portafolio-active {
+      padding: 10px 10px; } }
+
+@media (max-width: 338px) {
+  main .navbar-portafolios ul {
+    gap: 12px;
+    font-size: 0.8em; }
+    main .navbar-portafolios ul .boton-portafolio-active {
+      padding: 10px 10px; } }
 
 @media (max-width: 925px) {
   main .background-nova-5 img {

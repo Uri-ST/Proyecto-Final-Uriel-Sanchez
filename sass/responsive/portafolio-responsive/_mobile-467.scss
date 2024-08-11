@@ -56,8 +56,17 @@
             img{
                 width: 76%;
                 height: auto;
-                bottom: -204px;
+                bottom: -244px;
                 opacity: (0.4);
+            }
+        }
+        .navbar-portafolios{
+            ul{
+                gap: 20px;
+                font-size: 14px;
+                .boton-portafolio-active{
+                    padding: 10px 10px;
+                }
             }
         }
     }

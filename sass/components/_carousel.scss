@@ -100,10 +100,38 @@ main{
         img{
             position:absolute;
             z-index: -1;
-            width: 20%;
+            width: 25%;
             height: auto;
-            bottom: -64px;
+            bottom: -94px;
             right: 0px;
+        }
+    }
+    .navbar-portafolios{
+        padding-bottom: 30px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 70px;
+            padding-left: 0px;
+            .boton-portafolio-active{
+                border:#B390ED solid 1px;
+                padding: 10px 20px;
+                border-radius: 16px;
+                background-color: rgba(60, 0, 97, 0.6);
+                color: white;
+                font-weight: bold;
+                backdrop-filter: blur(0.6);
+            }
+            li{
+                a{
+                    color: #C6C6C6;
+                    font-weight: 100;
+                    &:hover{
+                        color: $color-nav-hover;
+                    }
+                }
+            }
         }
     }
 }

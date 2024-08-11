@@ -1,0 +1,13 @@
+@media (max-width:338px){
+    main{
+        .navbar-portafolios{
+            ul{
+                gap: 12px;
+                font-size: 0.8em;
+                .boton-portafolio-active{
+                    padding: 10px 10px;
+                }
+            }
+        }
+    }
+}
