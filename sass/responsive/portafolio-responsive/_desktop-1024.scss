@@ -1,0 +1,46 @@
+@media (max-width:1024px){
+    main{
+        .background-small-circle-top{
+            img{
+                width: 60%;
+                height: auto;
+            }
+        }
+        .container{
+            .carousel{
+                .carousel-inner{
+                    width: 100%;
+                    .carousel-item{
+                        .d-flex{
+                            .carousel-textos{
+                                .carousel-textos-herramientas{
+                                    font-size: 14px;
+                                }
+                            }
+                            img{
+                                margin-right: 0px;
+                            }
+                        }
+                    }
+                    .btns-carousel{
+                        .carousel-control-prev {
+                            margin: 200px 0px;
+                            justify-content: start;
+                        }
+                        .carousel-control-next{
+                            margin: 200px 0px;
+                            justify-content: end;
+                        }
+                    }
+                }
+            }
+        }
+        .background-small-circle-btm{
+            img{
+                width: 26%;
+                height: auto;
+                bottom: -164px;
+            }
+        }
+    }
+}

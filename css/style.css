@@ -395,8 +395,6 @@ main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-texto
   color: white;
   border-color: transparent;
   border-radius: 28px;
-  width: 180px;
-  height: 10px;
   font-weight: bold;
   padding: 10px 20px;
   margin: 4px 4px 4px 0px; }
@@ -1227,6 +1225,10 @@ main .lines-cuestionario {
           main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
             margin-bottom: 15px;
             margin-top: 5px; }
+          main .cuestionario .cuestionario-contenedor .formulario input {
+            text-align: center; }
+          main .cuestionario .cuestionario-contenedor .formulario textarea {
+            text-align: center; }
     main .redes-sociales {
       padding-bottom: 0px; }
       main .redes-sociales a img {
@@ -1333,8 +1335,9 @@ main .lines-cuestionario {
             margin-bottom: 15px;
             margin-top: 5px; }
           main .cuestionario .cuestionario-contenedor .formulario input {
-            padding-right: 34px;
-            padding-left: 34px; }
+            padding-right: 38px;
+            padding-left: 38px;
+            text-align: center; }
           main .cuestionario .cuestionario-contenedor .formulario textarea {
             align-self: center;
             text-align: center;
@@ -1558,6 +1561,86 @@ main .lines-cuestionario {
     main .redes-sociales-sobre-mi a img {
       width: 68px;
       padding-bottom: 10px; } }
+
+@media (max-width: 1024px) {
+  main .background-small-circle-top img {
+    width: 60%;
+    height: auto; }
+  main .container .carousel .carousel-inner {
+    width: 100%; }
+    main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .carousel-textos-herramientas {
+      font-size: 14px; }
+    main .container .carousel .carousel-inner .carousel-item .d-flex img {
+      margin-right: 0px; }
+    main .container .carousel .carousel-inner .btns-carousel .carousel-control-prev {
+      margin: 200px 0px;
+      justify-content: start; }
+    main .container .carousel .carousel-inner .btns-carousel .carousel-control-next {
+      margin: 200px 0px;
+      justify-content: end; }
+  main .background-small-circle-btm img {
+    width: 26%;
+    height: auto;
+    bottom: -164px; } }
+
+@media (max-width: 991px) {
+  main .container .carousel .carousel-inner .carousel-item .d-flex img {
+    height: 370px !important; }
+  main .container .carousel .carousel-inner .btns-carousel .carousel-control-prev {
+    margin: 370px 0px;
+    justify-content: start; }
+  main .container .carousel .carousel-inner .btns-carousel .carousel-control-next {
+    margin: 370px 0px;
+    justify-content: end; }
+  main .background-small-circle-btm img {
+    width: 36%;
+    height: auto;
+    bottom: -164px; } }
+
+@media (max-width: 767px) {
+  main .background-small-circle-top img {
+    width: 60%;
+    height: auto; }
+  main .container {
+    padding-bottom: 80px; }
+    main .container .carousel .carousel-inner {
+      width: 100%; }
+      main .container .carousel .carousel-inner .carousel-item .d-flex img {
+        margin-bottom: 0px;
+        align-self: center; }
+      main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos {
+        font-size: 1em; }
+        main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .carousel-lista-textos {
+          margin-bottom: 16px; }
+        main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .carousel-textos-herramientas p:first-child {
+          margin-bottom: 8px; }
+        main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .carousel-textos-herramientas p:nth-child(2) {
+          margin-bottom: 4px; }
+        main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .bts-ux-ui {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          width: 190px;
+          text-align: center;
+          font-size: 12px; }
+          main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .bts-ux-ui a {
+            padding: 6px 0px; }
+      main .container .carousel .carousel-inner .btns-carousel {
+        padding-bottom: 20px; }
+        main .container .carousel .carousel-inner .btns-carousel .carousel-control-prev {
+          margin: 150px 0px;
+          justify-content: start; }
+          main .container .carousel .carousel-inner .btns-carousel .carousel-control-prev .icono-atras {
+            display: none; }
+        main .container .carousel .carousel-inner .btns-carousel .carousel-control-next {
+          margin: 150px 0px;
+          justify-content: end; }
+          main .container .carousel .carousel-inner .btns-carousel .carousel-control-next .icono-siguiente {
+            display: none; }
+  main .background-small-circle-btm img {
+    width: 26%;
+    height: auto;
+    bottom: -164px; } }
 
 @media (max-width: 925px) {
   main .background-nova-5 img {

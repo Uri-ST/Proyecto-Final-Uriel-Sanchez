@@ -1,0 +1,38 @@
+@media (max-width:991px){
+    main{
+        .container{
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .d-flex{
+                            .carousel-textos{
+                                .carousel-textos-herramientas{
+                                }
+                            }
+                            img{
+                                height: 370px !important;
+                            }
+                        }
+                    }
+                    .btns-carousel{
+                        .carousel-control-prev {
+                            margin: 370px 0px;
+                            justify-content: start;
+                        }
+                        .carousel-control-next{
+                            margin: 370px 0px;
+                            justify-content: end;
+                        }
+                    }
+                }
+            }
+        }
+        .background-small-circle-btm{
+            img{
+                width: 36%;
+                height: auto;
+                bottom: -164px;
+            }
+        }
+    }
+}

@@ -56,8 +56,6 @@ main{
                                 color: map-get(map-get($botones , trabajemos-juntos),color);
                                 border-color:  map-get(map-get($botones , trabajemos-juntos),border-color);
                                 border-radius:  map-get(map-get($botones , trabajemos-juntos),border-radius);
-                                width:  map-get(map-get($botones , trabajemos-juntos),width);
-                                height:  map-get(map-get($botones , trabajemos-juntos),height);
                                 font-weight: map-get(map-get($botones , trabajemos-juntos),font-weight);
                                 padding: map-get(map-get($botones , trabajemos-juntos),padding);
                                 margin: 4px 4px 4px 0px;

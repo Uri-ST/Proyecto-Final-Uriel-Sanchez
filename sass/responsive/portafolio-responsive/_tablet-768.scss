@@ -1,0 +1,75 @@
+@media (max-width:767px){
+    main{
+        .background-small-circle-top{
+            img{
+                width: 60%;
+                height: auto;
+            }
+        }
+        .container{
+            padding-bottom: 80px;
+            .carousel{
+                .carousel-inner{
+                    width: 100%;
+                    .carousel-item{
+                        .d-flex{
+                            img{
+                                margin-bottom: 0px;
+                                align-self: center;
+                            }
+                            .carousel-textos{
+                                font-size: 1em;
+                                .carousel-lista-textos{
+                                    margin-bottom: 16px;
+                                }
+                                .carousel-textos-herramientas{
+                                    p:first-child{
+                                        margin-bottom: 8px;
+                                    }
+                                    p:nth-child(2){
+                                        margin-bottom: 4px;
+                                    }
+                                }
+                                .bts-ux-ui{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap:8px;
+                                    width: 190px;
+                                    text-align: center;
+                                    font-size: 12px;
+                                    a{
+                                        padding: 6px 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btns-carousel{
+                        padding-bottom: 20px;
+                        .carousel-control-prev {
+                            .icono-atras{
+                                display: none;
+                            }
+                            margin: 150px 0px;
+                            justify-content: start;
+                        }
+                        .carousel-control-next{
+                            margin: 150px 0px;
+                            justify-content: end;
+                            .icono-siguiente{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .background-small-circle-btm{
+            img{
+                width: 26%;
+                height: auto;
+                bottom: -164px;
+            }
+        }
+    }
+}
