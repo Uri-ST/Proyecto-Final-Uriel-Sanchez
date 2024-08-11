@@ -1332,6 +1332,9 @@ main .lines-cuestionario {
           main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
             margin-bottom: 15px;
             margin-top: 5px; }
+          main .cuestionario .cuestionario-contenedor .formulario input {
+            padding-right: 34px;
+            padding-left: 34px; }
           main .cuestionario .cuestionario-contenedor .formulario textarea {
             align-self: center;
             text-align: center;
