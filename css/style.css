@@ -403,6 +403,19 @@ main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-texto
     cursor: pointer;
     color: #100325; }
 
+main .container .carousel .carousel-inner .carousel-item .d-flex .button-trabajemos-juntos {
+  background-color: #0571BF;
+  color: white;
+  border-color: transparent;
+  border-radius: 28px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 4px 4px 4px 0px; }
+  main .container .carousel .carousel-inner .carousel-item .d-flex .button-trabajemos-juntos:hover {
+    background-color: #25D8FF;
+    cursor: pointer;
+    color: #100325; }
+
 main .container .carousel .carousel-inner .btns-carousel .carousel-control-prev {
   margin: 200px 0px; }
 
@@ -1641,6 +1654,44 @@ main .lines-cuestionario {
     width: 26%;
     height: auto;
     bottom: -164px; } }
+
+@media (max-width: 467px) {
+  main .titulo-carrusel {
+    margin-bottom: 2px;
+    margin-top: 14px; }
+    main .titulo-carrusel h1 {
+      font-size: 40px; }
+  main .background-small-circle-top img {
+    width: 90%;
+    height: auto;
+    top: 20px; }
+  main .container {
+    padding-bottom: 60px; }
+    main .container .carousel .carousel-inner .carousel-item .d-flex {
+      display: flex;
+      flex-direction: column; }
+      main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos {
+        text-align: center;
+        padding-bottom: 30px; }
+        main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .carousel-lista-textos {
+          display: none; }
+        main .container .carousel .carousel-inner .carousel-item .d-flex .carousel-textos .carousel-textos-herramientas {
+          font-size: 14px; }
+      main .container .carousel .carousel-inner .carousel-item .d-flex img {
+        margin-right: 0px;
+        width: auto;
+        height: 9; }
+    main .container .carousel .carousel-inner .btns-carousel .carousel-control-prev {
+      margin: 200px 0px;
+      justify-content: start; }
+    main .container .carousel .carousel-inner .btns-carousel .carousel-control-next {
+      margin: 200px 0px;
+      justify-content: end; }
+  main .background-small-circle-btm img {
+    width: 76%;
+    height: auto;
+    bottom: -204px;
+    opacity: 0.4; } }
 
 @media (max-width: 925px) {
   main .background-nova-5 img {
