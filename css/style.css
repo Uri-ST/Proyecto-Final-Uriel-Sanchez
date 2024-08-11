@@ -1323,6 +1323,7 @@ main .lines-cuestionario {
         main .cuestionario .cuestionario-contenedor .cuestionario-contenedor-textos h3 {
           font-size: 18px; }
         main .cuestionario .cuestionario-contenedor .formulario {
+          align-items: center;
           align-content: center;
           padding: 0px 0px;
           flex-wrap: wrap; }
@@ -1331,12 +1332,10 @@ main .lines-cuestionario {
           main .cuestionario .cuestionario-contenedor .formulario .button-enviar {
             margin-bottom: 15px;
             margin-top: 5px; }
-          main .cuestionario .cuestionario-contenedor .formulario input {
-            margin: 0px 15px; }
           main .cuestionario .cuestionario-contenedor .formulario textarea {
-            padding: 8px 4px;
-            margin: 0px 10px;
-            text-align: center; }
+            align-self: center;
+            text-align: center;
+            padding: 0px 0px; }
     main .background-lines-index img {
       opacity: 80%;
       top: 3070px;
